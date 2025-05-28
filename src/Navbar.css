@@ -1,0 +1,35 @@
+.navbar{
+  display: flex;
+  color: white;
+  background-color: #34495e;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+}
+.input-span {
+  background-color: #adbbc9;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; 
+    padding: 3px;
+    border-radius: 30px;
+  }
+ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.list-elemnt{
+  display: flex;
+
+  align-items: center;
+}
+input{
+  width: 500px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.li:hover {
+  transform: scale(1.02);
+}
