@@ -6,16 +6,19 @@ function Navbar() {
     <nav className='navbar'>
        <h1>PostAdda</h1>
        <ul className='list-elemnt'>
-        <span className='input-span'> <label for="search"></label>
+
+        <span className='input-span'> 
         <input type="text" id="search" placeholder="Search your post.."/></span>
        
         
-         
-        <li>Home</li>
+        <ul className='inner-list'>
+          <li>Home</li>
         <li>Top Posts</li>
         <li>Contacts</li>
         <li>About us</li>
 
+        </ul>
+        
        
        </ul>
     </nav>
