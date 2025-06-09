@@ -13,15 +13,19 @@
   box-sizing: border-box;
 }
 
+.post-link {
+  text-decoration: none;
+  color: inherit;
+}
 .post-card:hover {
   transform: scale(1.02);
 }
 
 .card-header {
   border-radius: 10px;
-  padding: 2%;
+  padding: 1%;
+  padding-left: 10px;
   background-color: #f5f6fa;
-  margin-bottom: 20px;
 }
 
 .sub-data {
@@ -30,7 +34,6 @@
   flex-wrap: wrap;
   font-size: 13.6px;
   color: #555;
-  margin-top: 8px;
   gap: 8px;
 }
 
